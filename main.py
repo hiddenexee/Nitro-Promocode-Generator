@@ -34,9 +34,9 @@ def gen() -> None:
 
             with lock:
                 open("codes.txt", "a+").write(f"{code_url}{res}" + "\n")
-                print(f"[+] Nitro kodu üretildi => {res}")
+                print(f"[+] Nitro code generated => {res}")
         except Exception as e:
-          print(f"[-] Nitro kodu üretilmedi => {e}")
+          print(f"[-] Nitro code not generated => {e}")
 
 if __name__ == '__main__':
     system("title Nitro Generator ^| @hiddenexe")
