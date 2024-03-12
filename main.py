@@ -1,5 +1,6 @@
 from os import system
 from random import randint
+from uuid import uuid4
 from json import dumps
 from requests import post
 from threading import Thread, Lock
@@ -23,7 +24,7 @@ headers = {
 }
 
 def gen_user_id() -> str:
-    return f"{randint(10000, 99999)}ffb{randint(1000, 9999)}ccfd{randint(1000, 9999)}a163050aaa43f5fdaa76e990848f759b77be0d{randint(100, 999)}c{randint(1, 9)}a"
+    return str(uuid.uuid4())
 
 def gen() -> None:
     while True:
