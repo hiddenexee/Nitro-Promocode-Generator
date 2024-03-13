@@ -212,22 +212,22 @@ def start() -> None:
                 code = tempmail_code(session, phpsid)
                 if code != "":
                     if verify_email(driver, code):
-                        print("[+] Mail onaylandı")
+                        print("[+] Email confirmed")
                         if gx_me(driver):
                             auth = get_token(driver)
                             token = get_promocode(auth)
                             if token != "":
                                 open("codes.txt", "a+").write(f"{code_url}{token}" + "\n")
                                 open("accounts.txt", "a+").write(f"{email}{password}" + "\n")
-                                print(f"[+] Nitro kodu üretildi => {token}")
+                                print(f"[+] Nitro code generated => {token}")
                             else:
-                                print(f"[-] Nitro kodu üretilemedi => {token}")
+                                print(f"[-] Nitro code could not be generated => {token}")
                         else:
-                            print("[-] Auth token alınamadı")
+                            print("[-] Auth token could not be received")
                     else:
-                        print("[-] Email onaylanamadı")
+                        print("[-] Email not confirmed")
                 else:
-                    print("[-] Email kodu gelmedi")
+                    print("[-] Email code did not arrive")
 
             driver.quit()
         except Exception as e:
