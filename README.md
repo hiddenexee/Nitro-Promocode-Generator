@@ -4,6 +4,8 @@
 
 The software allows unlimited collection of nitro promotional codes.
 <br><br>
+<a href="https://googlechromelabs.github.io/chrome-for-testing/">You can download the latest version of chromedriver from this link.</a>
+<br><br>
 You can star the project to support me. Thank you
  
 # Features:
