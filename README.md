@@ -8,9 +8,7 @@ You can star the project to support me. Thank you
  
 # Features:
 
-- Quick (full requests)
-- Multi Thread
-- No proxy required
+- Need a proxy
 - No third party apis
  
 # Contact:
