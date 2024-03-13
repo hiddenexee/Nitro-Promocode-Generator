@@ -26,6 +26,6 @@ Gmail: hidden4xe@gmail.com
 
 <div align="center">
       <a href="#">
-         <img src="https://github.com/hiddenexee/Nitro-Promocode-Generator/assets/161987966/63edd1ed-8fbb-40ec-988a-fecd385e59bd" style="width:20%;">
+         <img src="https://github.com/hiddenexee/Nitro-Promocode-Generator/assets/161987966/63edd1ed-8fbb-40ec-988a-fecd385e59bd" style="width:50%;">
       </a>
 </div>
