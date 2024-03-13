@@ -24,7 +24,7 @@ headers = {
 }
 
 def gen_user_id() -> str:
-    return str(uuid.uuid4())
+    return str(uuid4())
 
 def gen() -> None:
     while True:
