@@ -229,7 +229,7 @@ def start() -> None:
                 else:
                     print("[-] Email code did not arrive")
 
-            driver.quit()
+            driver.close()
         except Exception as e:
             print(f"[!] Main error => {e}")
 
